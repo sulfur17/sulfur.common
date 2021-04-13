@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="BATCH" XmlFormat="17">
+    <Compare>
+        <Variant>TimeAndSize</Variant>
+        <Symlinks>Exclude</Symlinks>
+        <IgnoreTimeShift/>
+    </Compare>
+    <Synchronize>
+        <Variant>TwoWay</Variant>
+        <DetectMovedFiles>false</DetectMovedFiles>
+        <DeletionPolicy>RecycleBin</DeletionPolicy>
+        <VersioningFolder Style="Replace"/>
+    </Synchronize>
+    <Filter>
+        <Include>
+            <Item>*</Item>
+        </Include>
+        <Exclude/>
+        <TimeSpan Type="None">0</TimeSpan>
+        <SizeMin Unit="None">0</SizeMin>
+        <SizeMax Unit="None">0</SizeMax>
+    </Filter>
+    <FolderPairs>
+        <Pair>
+            <Left>C:\repo\TB_tests\libraries\Макеты</Left>
+            <Right>C:\repo\Sulfur.Common</Right>
+            <Synchronize>
+                <Variant>Custom</Variant>
+                <CustomDirections>
+                    <LeftOnly>none</LeftOnly>
+                    <RightOnly>none</RightOnly>
+                    <LeftNewer>right</LeftNewer>
+                    <RightNewer>none</RightNewer>
+                    <Different>right</Different>
+                    <Conflict>none</Conflict>
+                </CustomDirections>
+                <DetectMovedFiles>false</DetectMovedFiles>
+                <DeletionPolicy>RecycleBin</DeletionPolicy>
+                <VersioningFolder Style="Replace"/>
+            </Synchronize>
+            <Filter>
+                <Include>
+                    <Item>СозданиеFixturesПоФайлуКонвертации.epf</Item>
+                </Include>
+                <Exclude/>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>C:\Program Files (x86)\OneScript\lib\add\plugins</Left>
+            <Right>C:\repo\Sulfur.Common</Right>
+            <Synchronize>
+                <Variant>Custom</Variant>
+                <CustomDirections>
+                    <LeftOnly>none</LeftOnly>
+                    <RightOnly>none</RightOnly>
+                    <LeftNewer>right</LeftNewer>
+                    <RightNewer>none</RightNewer>
+                    <Different>right</Different>
+                    <Conflict>none</Conflict>
+                </CustomDirections>
+                <DetectMovedFiles>false</DetectMovedFiles>
+                <DeletionPolicy>RecycleBin</DeletionPolicy>
+                <VersioningFolder Style="Replace"/>
+            </Synchronize>
+            <Filter>
+                <Include>
+                    <Item>КонвертацияДанных2*</Item>
+                    <Item>КонвертацияДанных2.epf</Item>
+                    <Item>Sulfur.V8Exchan.epf</Item>
+                </Include>
+                <Exclude/>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+    </FolderPairs>
+    <Errors Ignore="false" Retry="0" Delay="5"/>
+    <PostSyncCommand Condition="Completion"/>
+    <LogFolder/>
+    <EmailNotification Condition="Always"/>
+    <Batch>
+        <ProgressDialog Minimized="true" AutoClose="true"/>
+        <ErrorDialog>Show</ErrorDialog>
+        <PostSyncAction>None</PostSyncAction>
+    </Batch>
+</FreeFileSync>
