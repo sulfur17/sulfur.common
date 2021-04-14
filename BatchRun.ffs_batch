@@ -41,6 +41,7 @@
             <Filter>
                 <Include>
                     <Item>СозданиеFixturesПоФайлуКонвертации.epf</Item>
+                    <Item>СозданиеFixturesЧерезОбменДанными.epf</Item>
                 </Include>
                 <Exclude/>
                 <TimeSpan Type="None">0</TimeSpan>
