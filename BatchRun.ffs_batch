@@ -28,9 +28,9 @@
                 <Variant>Custom</Variant>
                 <CustomDirections>
                     <LeftOnly>none</LeftOnly>
-                    <RightOnly>none</RightOnly>
+                    <RightOnly>left</RightOnly>
                     <LeftNewer>right</LeftNewer>
-                    <RightNewer>none</RightNewer>
+                    <RightNewer>left</RightNewer>
                     <Different>right</Different>
                     <Conflict>none</Conflict>
                 </CustomDirections>
