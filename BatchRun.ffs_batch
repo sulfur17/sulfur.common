@@ -23,7 +23,7 @@
     <FolderPairs>
         <Pair>
             <Left>C:\Program Files (x86)\OneScript\lib\add\plugins</Left>
-            <Right>C:\repo\Sulfur.Common</Right>
+            <Right>d:\repo\Sulfur.Common</Right>
             <Synchronize>
                 <Variant>Custom</Variant>
                 <CustomDirections>
